@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.initConfig({
 
-        uglify: {
+        uglify: { //minifier
             my_target: {
                 files: {
                     '_/js/script.js': ['_/components/js/*.js'] //takes every .js file in the folder
